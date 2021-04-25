@@ -1,3 +1,3 @@
-<h1> Hello, Welcome to Valaxy Technologies !!! </h1>
-<h2> Deploying on Kubernetes </h2>
-<h3> One last test </h3>
+<h1> Hello, Welcome to CICD Sessions </h1>
+<h2> my first CICD pipeline</h2>
+<h3> Workin In EC2 </h3>
