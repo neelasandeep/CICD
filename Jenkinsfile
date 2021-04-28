@@ -32,8 +32,8 @@ pipeline {
 
     stage('results') {
       steps {
-        realtimeJUnit(testResults: '**/*.xml')
         archiveArtifacts '**/*.war'
+        junit '**/*.xml'
       }
     }
 
