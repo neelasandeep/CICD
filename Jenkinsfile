@@ -11,13 +11,19 @@ pipeline {
       parallel {
         stage('test') {
           steps {
-            sh 'mvn test'
+            withMaven(maven: 'Maven', globalMavenSettingsConfig: 'Maven') {
+              sh 'mvn test'
+            }
+
           }
         }
 
         stage('package') {
           steps {
-            sh 'mvn package'
+            withMaven(globalMavenSettingsConfig: 'Maven', maven: 'Maven') {
+              sh 'mvn package'
+            }
+
           }
         }
 
