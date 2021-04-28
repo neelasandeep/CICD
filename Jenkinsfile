@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('test') {
           steps {
-            withMaven(maven: 'Maven', globalMavenSettingsConfig: 'Maven') {
+            withMaven(maven: 'Maven') {
               sh 'mvn test'
             }
 
@@ -20,7 +20,7 @@ pipeline {
 
         stage('package') {
           steps {
-            withMaven(globalMavenSettingsConfig: 'Maven', maven: 'Maven') {
+            withMaven(maven: 'Maven') {
               sh 'mvn package'
             }
 
