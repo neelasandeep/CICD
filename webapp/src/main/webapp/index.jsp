@@ -9,4 +9,4 @@
 <h2>Webhook added successfully</h2>
 <h2>pushed again</h2>
 <h1>all done</h1>
-<h1> completed parallel run in tusing slave and master node</h1>
+<h1> completed parallel run in tusing slave and master nodes</h1>
