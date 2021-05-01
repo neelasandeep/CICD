@@ -36,6 +36,6 @@ public class Regression {
 	@Test
 	public void checkodd() {
 
-		Assert.assertEquals(3, (9 % 3));
+		Assert.assertEquals(3, (9/3));
 	}
 }
