@@ -8,3 +8,4 @@
 <h1>all done</h1>
 <h1> completed parallel run in tusing slave and master nodes</h1>
 <h2>added with smoke on master regression on Node</h2>
+<h3>found a way to successfully complete the slave and master execution</h3>
