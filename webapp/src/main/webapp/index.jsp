@@ -6,5 +6,5 @@
 <h2>added with smoke on master regression on Node</h2>
 <h3>found a way to successfully complete the slave and master execution</h3>
 <h1>pulling from nexus server</h1>
-<h1>check</h1>
+<h1>slack integrated</h1>
 
