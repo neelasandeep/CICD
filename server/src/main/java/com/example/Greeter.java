@@ -20,9 +20,7 @@ public class Greeter {
     }
   }
   public void check1(){
-    if(1/0){
-
-    }
+    int k=1/0;
   }
 
   //TODO: Add javadoc comment
