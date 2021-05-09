@@ -19,7 +19,9 @@ public class Greeter {
 
     }
   }
-  
+  public void check1(){
+    int k=1/0;
+  }
 
   //TODO: Add javadoc comment
   public String greet(String someone) {
