@@ -20,8 +20,8 @@ public class Greeter {
     }
   }
   public void check1(){
-    if(1/0==true){
-      
+    if(1/0){
+
     }
   }
 
