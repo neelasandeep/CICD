@@ -11,6 +11,9 @@ public class Greeter {
   public Greeter() {
 
   }
+  public void check(){
+    try{}catch(Exception e){}
+  }
 
   //TODO: Add javadoc comment
   public String greet(String someone) {
