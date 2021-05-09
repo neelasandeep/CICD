@@ -16,6 +16,11 @@ public class Greeter {
     boolean valid= false;
 
     if(valid=true){
+
+    }
+  }
+  public void check1(){
+    if(1/0==true){
       
     }
   }
