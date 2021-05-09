@@ -13,6 +13,11 @@ public class Greeter {
   }
   public void check(){
     try{}catch(Exception e){}
+    boolean valid= false;
+
+    if(valid=true){
+      
+    }
   }
 
   //TODO: Add javadoc comment
